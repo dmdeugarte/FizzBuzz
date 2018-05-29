@@ -11,11 +11,11 @@ This is a standard children's game in which:
 
 Generally this goes to 100, but there will be 3 baby steps, and more to follow. 
 
--Create the loop to state the numbers and words. 
+-Create the loop to state the numbers and words. COMPLETED
 
 -Create the loop to stop the loop at 100.
 
--Create an input for where to start and where to stop(rather than from 1-100). Also a user interface to choose to play or see the full list from <start> to <finish>
+-Create an input for where to start and where to stop(rather than from 1-100). Also a user interface to choose to play or see the full list from start to finish
 
 -A timer will be implemented later to add more... INTENSITY
 
