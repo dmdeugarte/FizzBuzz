@@ -15,7 +15,7 @@ Generally this goes to 100, but there will be 3 baby steps, and more to follow.
 
 -Create the loop to stop the loop at 100. COMPLETED
 
--Create an input for where to start and where to stop(rather than from 1-100). Also a user interface to choose to play or see the full list from start to finish
+-Create an input for where to start and where to stop(rather than from 1-100). Also a user interface to choose to play or see the full list from start to finish COMPLETED
 
 -A timer will be implemented later to add more... INTENSITY
 
