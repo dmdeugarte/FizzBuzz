@@ -33,7 +33,7 @@ int main()
 		displayMenu();
 		cin >> choice;
 
-		while (choice =! 1 && choice =! 2 && choice =! 9)
+		while (choice != 1 && choice != 2 && choice != 9)
 		{
 			cout << "Invalid Choice. Please try again. " << endl;
 			displayMenu();
@@ -50,7 +50,7 @@ int main()
 
 		cout << "Please choose a place to stop. This must be numeric, positive, and greater than your start value. " << endl;
 		cin >> stop;
-		while (stop < 0 || start <= stop)
+		while (stop < 0 || start >= stop)
 		{
 			cout << "Invalid Choice. Please try again. " << endl;
 			cin >> stop;
@@ -117,7 +117,7 @@ int main()
 				}
 
 				count++;
-			} while (count >= start && count < stop && points < 0)
+			} while (count >= start && count < stop && points < 0);
 			
 
 		}
@@ -126,7 +126,7 @@ int main()
 		else 
 			cout << "You should not have come here... Please report a bug..." << endl;
 		
-	} while (choice =! 9)
+	} while (choice != 9);
 	return 0;
 }
 
